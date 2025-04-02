@@ -39,7 +39,7 @@ button {
     font-size: 1em;
     font-weight: 600;
     border: none;
-    border-radius: px;
+    border-radius: 5px;
     cursor: pointer;
     background: #ffdd57;
     color: #333;
@@ -48,20 +48,4 @@ button {
 
 button:hover {
     background: #ffd700;
-}
-
-.theme-toggle {
-    background: none;
-    border: none;
-    font-size: 1.5em;
-    cursor: pointer;
-    color: var(--text-color);
-    transition: color 0.3s ease-in-out;
-}
-
-
-@media (max-width: 600px) {
-    .buttons {
-        flex-direction: column;
-    }
 }
